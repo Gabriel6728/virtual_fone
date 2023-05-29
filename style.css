@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) );
+        min-height: 100vh;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        color: antiquewhite;
+    }
+
+    .teclado{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+        background-color:  antiquewhite;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    input{
+        border: 9,9px;
+        color: inherit;
+        font-size: inherit;
+        font-family: inherit;
+    }
+
+    input[type=button]{
+        border-radius: 20px;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        font-family: 'Montserrat', 'sans-serif';
+    }
